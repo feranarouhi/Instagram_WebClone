@@ -1,0 +1,131 @@
+body{
+ background-color: #f0f0eb;   
+ margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 3.3em;
+    line-height: 4.3em;
+    padding: 0 13.5em;
+    border-bottom: 0.1px solid #DBDBDB ;
+}
+
+nav img {
+    margin-top: 35px;
+    width: 100px;
+    height: auto; 
+}
+.logo{
+    top: 13em;
+    left: 2em;
+    text-decoration: none;
+
+}
+.logo>img{
+    vertical-align: middle;
+}
+.search{
+    background: #fafafa;
+    margin-left: 19em;
+    height: 1.9em;
+    width: 15.5em;
+    border: 1px solid #DBDBDB;
+}
+.search::placeholder{
+    text-align: center;
+    color: #ada9aa;
+    
+}
+.nav-links{
+    display: flex;
+    margin-left: 13.5em;
+}
+
+.nav-links a{
+    margin-left: 10px;
+}
+.nav-links a:not(:first-child) {
+    margin-left: 10px;
+}
+.nav-links i {
+    transform: scale(1.5);
+    color: #252525; 
+
+}
+.profile-photo{
+    margin-top: 5em;
+    margin-left: 15em;
+    width: 12.2em;
+    height: 12.2em;
+    border-radius: 50%;
+    border: 4px solid #ff11d3;
+    
+}
+.profile-photo img {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    border: 2px solid #eee9ed;
+  /* Add this line */
+    
+}
+.container{
+    padding: 0 15% ;
+}
+.bio{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    height: 15em;
+    padding: 3em 0 0 5em;
+    border-bottom: 2px solid #DBDBDB;
+}
+.profile-info{
+    margin-right: 15em;
+}
+.profile-info .username{
+    font-size: 1.7em;
+    color: #545454;
+    text-align: right;
+   
+}
+.profile-info button{
+    background-color: #0095F6;
+    color: #fff ;
+    font-size: 1.1em;
+    width: 6.5em; 
+    height: 2.1em;
+    border: unset;
+    cursor: pointer;
+
+}
+.gallery-nav {
+    height: 3.5em;
+    width: 100%;
+    background-color: #ff11d3;
+    margin-bottom: 20px; /* Change this to the space you want */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    row-gap: 1.2em;
+    column-gap: 1.2em;    
+
+}
+v  
+.item{
+    width: 20em;
+    height: 20em ; 
+    background: black;
+}
+.item>img{
+    height: auto;
+    width: 100%;
+}
+.item>img:hover{
+    opacity: 0.6;  
+    filter: grayscale(100%);
+}
